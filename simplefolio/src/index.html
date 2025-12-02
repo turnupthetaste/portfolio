@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <title>Felipe Fernandes Corrêa | Portfólio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Importa variáveis de tema -->
+    <link rel="stylesheet" href="theme-vars.css" />
+
+    <!-- CSS principal do simplefolio -->
+    <link rel="stylesheet" href="styles.css" />
+
+    <style>
+      .profile-img {
+        width: 180px;
+        height: 180px;
+        object-fit: cover;
+        border-radius: 50%;
+        border: none;
+        box-shadow: var(--shadow-md);
+        margin-top: -40px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <section id="hero" class="jumbotron">
+      <div class="container">
+        <h1 class="hero-title load-hidden">
+          Olá, meu nome é <span class="text-color-main">Felipe Fernandes Corrêa</span>
+          <br />
+          Sou desenvolvedor em formação na FATEC
+        </h1>
+        <p class="hero-cta load-hidden">
+          <a class="cta-btn cta-btn--hero" href="#about">Saiba mais</a>
+        </p>
+      </div>
+    </section>
+
+    <section id="about">
+      <div class="container">
+        <h2 class="section-title load-hidden">Sobre mim</h2>
+        <div class="row about-wrapper">
+          <div class="about-wrapper__image load-hidden">
+            <img
+              src="assets/felipe.jpg"
+              alt="Foto de Felipe Fernandes Corrêa"
+              class="img-fluid profile-img shadow-lg"
+            />
+          </div>
+          <div class="about-wrapper__info load-hidden">
+            <p class="about-wrapper__info-text">
+              Estudante de Desenvolvimento de Software Multiplataforma na FATEC. <br/>
+              Apaixonado por desenvolvimento web full stack, com foco em usabilidade, organização e boas práticas.
+            </p>
+            <span class="about-wrapper__cta">
+              <a href="#contact" class="cta-btn cta-btn--resume">Entre em contato</a>
+            </span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects">
+      <div class="container">
+        <div class="project-wrapper">
+          <h2 class="section-title dark-blue-text">Projetos</h2>
+
+          <div class="row">
+
+            <!-- Projeto 1 -->
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text load-hidden">
+                <h3 class="project-wrapper__text-title">Projeto DSM-1 (Scrum)</h3>
+                <p class="mb-4">
+                  Sistema de curso Scrum com backend em Node.js, frontend em HTML/CSS/JS e banco PostgreSQL.
+                </p>
+                <a href="https://github.com/TechWizards-Tech/DSM-1" target="_blank" class="cta-btn cta-btn--hero">Repositório</a>
+              </div>
+            </div>
+
+            <!-- Projeto 2 -->
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text load-hidden">
+                <h3 class="project-wrapper__text-title">NutriWizards</h3>
+                <p class="mb-4">
+                  Aplicativo para cálculo de calorias e monitoramento nutricional. Backend em Node.js, frontend com React e banco PostgreSQL.
+                </p>
+                <a href="https://github.com/TechWizards-Tech/NutriWizards" target="_blank" class="cta-btn cta-btn--hero">Repositório</a>
+              </div>
+            </div>
+
+            <!-- Projeto 3 -->
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text load-hidden">
+                <h3 class="project-wrapper__text-title">Wizard Winds</h3>
+                <p class="mb-4">
+                  Plataforma de alerta para navegação no Lago de Furnas. Backend em Node.js, frontend em React/Tailwind/Framer Motion. MongoDB atualizado pela API do projeto.
+                </p>
+                <a href="https://github.com/TechWizards-Tech/HALF-TECH---DSM-3" target="_blank" class="cta-btn cta-btn--hero">Repositório</a>
+              </div>
+            </div>
+
+            <!-- Projeto 4 – Microwizards (DSM-4) -->
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text load-hidden">
+                <h3 class="project-wrapper__text-title">Microwizards</h3>
+                <p class="mb-4">
+                  Sistema para captura e transmissão por Wi-Fi de imagens de microscópios ópticos,
+                  permitindo visualização em tempo real via web e app mobile.
+                </p>
+                <a href="https://github.com/TechWizards-Tech/TECH-WIZARDS-DSM-4" target="_blank" class="cta-btn cta-btn--hero">Repositório</a>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="container">
+        <h2 class="section-title">Contato</h2>
+        <p class="contact-wrapper__text">Entre em contato para colaborações ou oportunidades!</p>
+        <a href="mailto:felipecorrea71@gmail.com" class="cta-btn cta-btn--resume">Enviar e-mail</a>
+      </div>
+    </section>
+
+    <footer class="footer navbar-static-bottom">
+      <div class="container">
+        <a href="#top" class="back-to-top">Voltar ao topo</a>
+        <div class="social-links">
+          <a href="https://github.com/turnupthetaste" target="_blank" rel="noopener noreferrer">GitHub</a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
